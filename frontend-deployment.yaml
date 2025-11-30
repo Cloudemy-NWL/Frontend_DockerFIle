@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: withya61/cloudemy-frontend:latest
+        image: withya61/cloudemy-frontend:v1
         imagePullPolicy: Always
         ports:
         - containerPort: 3000
